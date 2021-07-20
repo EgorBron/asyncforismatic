@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+asyncforismatic/__init__.py
+asyncforismatic/asyncforismatic.py
+asyncforismatic/example.py
+asyncforismatic.egg-info/PKG-INFO
+asyncforismatic.egg-info/SOURCES.txt
+asyncforismatic.egg-info/dependency_links.txt
+asyncforismatic.egg-info/requires.txt
+asyncforismatic.egg-info/top_level.txt

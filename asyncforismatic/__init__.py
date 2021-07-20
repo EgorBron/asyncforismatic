@@ -1,4 +1,5 @@
-# *Forismatic* ![forismatic_logo](http://forismatic.com/favicon.ico)
+"""
+# Forismatic
 
 ## An unoficall library for getting quotes from the Forismatic API. Supports asynchronous syntax.
 
@@ -7,7 +8,7 @@
 ## Installing || Установка
 
 ```bash
-pip3 install pyforismatic
+pip3 install asyncforismatic
 ```
 
 Requires aiohttp and requests
@@ -15,17 +16,17 @@ Requires aiohttp and requests
 ## Examples || Примеры
 
 ```py
-import pyforismatic
+import asyncforismatic
 import asyncio
 
 # getting sync quote on russian as dict
 # синхронное получение цитаты на русском в виде словаря
-print(pyforismatic.quote(lang='ru', as_dict=True)) 
+print(asyncforismatic.quote(lang='ru', as_dict=True)) 
 
 # getting async quote with default params (english language and formated quote)
 # асинхронное получение цитаты со стандартными параметрами (английский язык и отформатированная цитата)
 async def example():
-    return await pyforismatic.async_quote()
+    return await asyncforismatic.async_quote()
 print(asyncio.run(example()))
 ```
 
@@ -95,3 +96,13 @@ print(asyncio.run(example()))
 
 * Raises when the language is not supported
 * Возникает когда язык не поддерживается
+"""
+
+
+
+from .asyncforismatic import LangIsNotSupported, async_quote, quote
+from . import example
+
+__author__ = 'EgorBron'
+__version__ = '0.0.1'
+__mail__ = 'bataikinegor@yandex.ru'
