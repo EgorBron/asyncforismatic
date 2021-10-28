@@ -1,3 +1,5 @@
+# Deprecation warning: this library is deprecated as an independent one, and will soon be moved to the [blusutils library](https://github.com/Blusutils/blusutils).
+
 # *Forismatic* ![forismatic_logo](http://forismatic.com/favicon.ico)
 
 ## An unoficall library for getting quotes from the Forismatic API. Supports asynchronous syntax.
