@@ -1,4 +1,4 @@
-# Deprecation warning: this library is deprecated as an independent one, and will soon be moved to the [blusutils library](https://github.com/Blusutils/blusutils).
+# Deprecation warning: this library is deprecated as an independent one, and will soon be moved to the [blusutils library](https://github.com/Blusutils/blusutilspy).
 
 # *Forismatic* ![forismatic_logo](http://forismatic.com/favicon.ico)
 
